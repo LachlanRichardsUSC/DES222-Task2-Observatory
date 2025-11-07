@@ -43,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         minOpacity: 0.4
     }).addTo(map);
-
     
 
 // Create markers for key locations
@@ -75,6 +74,8 @@ document.addEventListener('DOMContentLoaded', function () {
             updateInfoCards(location);
         });
     });
+    
+    
     function updateInfoCards(location) {
         infoCardOne.innerHTML = `
             <h3>${location.name}</h3>
@@ -104,6 +105,8 @@ document.addEventListener('DOMContentLoaded', function () {
             <h3>Recommendation</h3>
             <p>${getRecommendation(location.stressScore)}</p>
         `;
+        
+        
     }
 
     function getRecommendation(stressScore) {
