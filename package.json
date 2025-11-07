@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "heatmap.js": "^2.0.5",
+    "leaflet-heatmap-radius": "^0.0.3",
+    "visual-heatmap": "^2.2.0"
+  }
+}

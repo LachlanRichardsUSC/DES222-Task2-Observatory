@@ -1,14 +1,13 @@
 * {
     box-sizing: border-box;
-    /* outline: 1px solid red; */
     color: white;
 }
 
 html, body {
     height: 100%;
     background:
-        radial-gradient(circle at 10% 10%, rgba(6,24,41,0.9) 0%, rgba(11,18,32,0.9) 25%, rgba(15,23,36,0.9) 60%),
-        linear-gradient(180deg,#0b1220 0%, #0f1724 100%);
+            radial-gradient(circle at 10% 10%, rgba(6,24,41,0.9) 0%, rgba(11,18,32,0.9) 25%, rgba(15,23,36,0.9) 60%),
+            linear-gradient(180deg,#0b1220 0%, #0f1724 100%);
     background-attachment: fixed;
     font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     -webkit-font-smoothing: antialiased;
@@ -85,10 +84,6 @@ body {
     overflow-wrap: anywhere;
 }
 
-.info-card::before {
-    content: "";
-}
-
 .info-card h3 {
     margin: 0;
     font-size: 1rem;
@@ -113,6 +108,7 @@ body {
 .information-container::-webkit-scrollbar {
     height: 8px;
 }
+
 .information-container::-webkit-scrollbar-thumb {
     background: rgba(255,255,255,0.06);
     border-radius: 8px;
@@ -128,4 +124,30 @@ body {
     .info-card { max-width: 320px; min-width: 260px; flex: 0 0 260px; }
     .main-container { padding: 0.6rem; }
     body { padding: 1rem; }
+}
+
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: rgba(23, 34, 63, 0.96) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.6) !important;
+    backdrop-filter: blur(6px) !important;
+    border: 1px solid rgba(255,255,255,0.05) !important;
+}
+
+.leaflet-popup-content {
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.leaflet-popup-content strong {
+    color: #fff !important;
+}
+
+.leaflet-popup-content em {
+    color: #b7c7e9 !important;
+    font-style: normal;
+    opacity: 0.9;
 }
