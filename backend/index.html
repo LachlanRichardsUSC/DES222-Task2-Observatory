@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0f1724">
+    <title>Brisbane Stress Awareness Map - Live</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
+    <!-- Original styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Submission form styles -->
+    <link rel="stylesheet" href="submission-styles.css">
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+</head>
+
+<body>
+<div class="main-container">
+    <div class="banner" id="banner">
+        <img src="../assets/banner.png" alt="Brisbane skyline" class="banner-img" onerror="this.style.display='none'">
+        <div class="banner-text">Brisbane Stress Awareness Map - Live</div>
+    </div>
+
+    <div class="map-container" id="map"></div>
+
+    <div class="information-container">
+        <div class="info-card" id="info-card-one">
+            <h3>Loading...</h3>
+            <p>Connecting to server</p>
+        </div>
+        <div class="info-card" id="info-card-two">
+            <h3>Total Locations</h3>
+            <p>--</p>
+        </div>
+        <div class="info-card" id="info-card-three">
+            <h3>Average Stress</h3>
+            <p>--</p>
+        </div>
+        <div class="info-card" id="info-card-four">
+            <h3>Community Data</h3>
+            <p>Submit your location data</p>
+        </div>
+    </div>
+</div>
+
+<!-- Leaflet Heat Plugin -->
+<script src="../leaflet-heat.js"></script>
+
+<!-- Map API -->
+<script src="map-api.js"></script>
+
+<!-- User submission interface -->
+<script src="submission.js"></script>
+
+</body>
+</html>
