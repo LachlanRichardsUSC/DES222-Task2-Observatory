@@ -33,15 +33,33 @@ body {
 }
 
 .banner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     background: linear-gradient(90deg,#1f2b47 0%, #162033 100%);
     color: #fff;
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     border-radius: 8px;
-    text-align: center;
-    font-size: 1.9rem;
+    text-align: left;
+    font-size: 1.4rem;
     font-weight: 600;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.4px;
     box-shadow: inset 0 -1px 0 rgba(255,255,255,0.02);
+}
+
+.banner-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex: 0 0 64px;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.4);
+    border: 1px solid rgba(255,255,255,0.04);
+}
+
+.banner-text {
+    line-height: 1;
+    font-size: 1.25rem;
 }
 
 #map {
@@ -124,6 +142,8 @@ body {
     .info-card { max-width: 320px; min-width: 260px; flex: 0 0 260px; }
     .main-container { padding: 0.6rem; }
     body { padding: 1rem; }
+    .banner-img { width: 44px; height: 44px; flex: 0 0 44px; }
+    .banner-text { font-size: 1rem; }
 }
 
 
