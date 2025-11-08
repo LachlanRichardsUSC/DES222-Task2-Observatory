@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f342fbd-0d23-40e7-a1eb-8c6e65fa5b07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/map-api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/submission-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/submission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start-project.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/map-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/submission-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/submission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaflet-heat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +62,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.build.unityPlugin",
+    "settings.editor.selected.configurable": "database.data.views",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="TaskManager">
@@ -68,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1762502060882</updated>
       <workItem from="1762502062763" duration="28818000" />
-      <workItem from="1762591916909" duration="10878000" />
+      <workItem from="1762591916909" duration="13120000" />
     </task>
     <servers />
   </component>
@@ -97,5 +108,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

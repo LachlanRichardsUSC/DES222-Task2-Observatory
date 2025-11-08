@@ -69,7 +69,7 @@ def init_database():
     if count == 0:
         print("Seeding database with initial data from CSV...")
         # Load seed data from the CSV file in the project directory
-        csv_path = '../data.csv'
+        csv_path = 'data.csv'
         if os.path.exists(csv_path):
             base_locations = []
             with open(csv_path, 'r') as f:
