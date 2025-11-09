@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    color: white;
 }
 
 html, body {
@@ -12,6 +11,7 @@ html, body {
     font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: white;
 }
 
 body {
@@ -20,7 +20,6 @@ body {
     align-items: flex-start;
     padding: 2rem 1rem;
     line-height: 1.4;
-    color: #e6eef8;
 }
 
 .main-container {
@@ -37,7 +36,6 @@ body {
     align-items: center;
     gap: 1rem;
     background: linear-gradient(90deg,#1f2b47 0%, #162033 100%);
-    color: #fff;
     padding: 0.75rem 1rem;
     border-radius: 8px;
     text-align: left;
@@ -131,6 +129,16 @@ body {
     background: rgba(255,255,255,0.06);
     border-radius: 8px;
 }
+.leaflet-control-zoom a {
+    color: #000 !important;
+    background-color: #fff !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.leaflet-control-zoom a:hover {
+    color: #000 !important;
+}
 
 @media (max-width: 880px) {
     .info-card { max-width: 45%; min-width: 140px; }
@@ -146,10 +154,10 @@ body {
     .banner-text { font-size: 1rem; }
 }
 
-
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
     background: rgba(23, 34, 63, 0.96) !important;
+    color: #fff;
     border-radius: 8px !important;
     box-shadow: 0 6px 18px rgba(2,6,23,0.6) !important;
     backdrop-filter: blur(6px) !important;
