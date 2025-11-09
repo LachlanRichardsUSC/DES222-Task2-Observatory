@@ -10,11 +10,11 @@ The map will refresh automatically every 30 seconds.
 
 1. Install Flask
 
-  ```$ pip install Flask ```
+    `$ pip install Flask `
 
 2. Install Flask-Cors
 
-   ```$ pip install Flask-cors```
+    `$ pip install Flask-cors`
 
 3. Ensure data.csv is preloaded with seed data
 
