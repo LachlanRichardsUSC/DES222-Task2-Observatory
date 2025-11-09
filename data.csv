@@ -1,0 +1,18 @@
+id,name,lat,lng,crowdDensity,noiseLevel,stressScore
+1,Queen Street Mall,-27.4698,153.0251,85,78,82
+2,Central Station,-27.4654,153.0268,92,88,90
+3,Roma Street Parkland,-27.4627,153.0183,35,42,38
+4,South Bank Parklands,-27.4805,153.0250,30,30,25
+5,New Farm Park,-27.4676,153.0506,28,35,31
+6,Fortitude Valley,-27.4577,153.0344,75,82,78
+7,Westfield Chermside,-27.3854,153.0351,71,68,69
+8,Carindale Shopping Centre,-27.5008,153.1020,64,62,63
+9,UQ St Lucia Campus,-27.4975,153.0137,58,55,56
+10,QUT Gardens Point,-27.4772,153.0286,62,58,60
+11,Mount Coot-tha Botanic Gardens,-27.4769,152.9761,22,25,23
+12,Kangaroo Point Cliffs,-27.4786,153.0388,31,48,39
+13,Brisbane Airport,-27.3842,153.1175,81,91,86
+14,Toowong Village,-27.4842,152.9901,56,59,57
+15,West End Markets,-27.4819,153.0098,73,71,72
+16,South Bank Station,-27.481850,153.023186,66,75,70
+17,Teneriffe Park,-27.457871,153.047204,20,20,15
